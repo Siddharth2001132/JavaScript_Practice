@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.cat-container {
+  width: 80%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h2{
+    font-size: 5vh;
+    font-family: 'Piedra', cursive;
+
+}
+.cat-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2rem auto;
+} 
+.card{
+    background-color: rgb(72, 241, 157);
+    border-radius: 5%;
+}
