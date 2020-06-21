@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.game-container{
+    width: 75%;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vh;
+
+}
+
+.game-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.game-images img{
+    margin: 2rem;
+}
+
+.game-images img:hover{
+    filter: drop-shadow(0px 10px 50px rgb(2, 255, 86));
+}
+    
